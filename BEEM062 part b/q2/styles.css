@@ -1,0 +1,80 @@
+#block {
+    background-color: #dae5f7; 
+    padding: 30px;
+    border: 1px dotted grey;
+    margin-bottom: 5px;
+}
+
+#Text {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+#Text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+#Text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+#head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#block1 {
+    background-color: #E0C6FF; 
+    padding: 30px; 
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#block2 {
+    background-color: #daf7ed; 
+    padding: 30px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+#block3 {
+    background-color: #C6FFFF; 
+    padding: 30px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+#block4 {
+    background-color: #FFECC6; 
+    padding: 30px;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+#block5 {
+    background-color: #f7e1da; 
+    padding: 30px;
+    border: 1px dotted grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+#privKey {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+#addressText {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+}
+
+#qrcode {
+    margin-top: 10px;
+}

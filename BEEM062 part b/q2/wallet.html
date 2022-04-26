@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Kornels Bitcoin Wallet</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script 
+        type="text/javascript" 
+        src="https://unpkg.com/bsv@1.5.3/bsv.min.js">
+    </script>
+    <script 
+        type="text/javascript" 
+        src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js">
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+        type="text/javascript"
+        src="https://unpkg.com/bsv@1.5.3/bsv-mnemonic.min.js">
+    </script>
+    
+    </head>
+    <body>
+      
+    <div id="block1">
+        <h1>You have generated a private key! </h1>
+        <p>(This is not shown for security reasons)</p>
+    </div>
+    <div id="block2">
+        <h1>Your Public Key is:</h1> 
+        <p id="pubKey"> </p>
+    </div>
+    <div id="block3">
+        <h1>Your Address is:</h1> 
+        <p id="addressText"> </p>
+    </div>
+    <div id="block4">
+        <h1>Your QR code:</h1>
+        <p id="qrcode"></p>
+    </div>
+
+    <div id="block5">
+        <h1>Balance in Satoshis:</h1>
+        <p>Confirmed Balance:</p>
+        <p id="balance_confirmed"></p>
+        <p>Unconfirmed Balance:</p>
+        <p id="balance_unconfirmed"></p>
+    </div>
+
+    <div id="block">
+        <h1 id="head">HD key system, with mnemonic below:</h1> 
+        <p>(Private key hidden for security reasons)</p>
+    </div>
+
+    <div id="block">
+        <h1 id="head">Mnemonic:</h1> 
+        <p id="Mnemonic"></p>
+    </div>
+
+    <div id="block">
+        <h1 id="head">HD Address:</h1> 
+        <p id="Text2"></p>
+    </div>
+
+    <div id="block4">
+        <h1>Your QR code:</h1>
+        <p id="hdqrcode"></p>
+    </div>
+   
+    <script src="code.js"></script>
+  </body>
+</html>
